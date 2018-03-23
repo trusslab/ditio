@@ -42,7 +42,7 @@ Change your current directory to the android system kernel directory and check o
 cd ~/android/system/kernel/lge/hammerhead
 git add remote ditio_origin https://github.com/trusslab/Ditio_hammerhead_v1
 git checkout Ditio_hammerhead_v1
-```sh
+```
 
 ### 1.1.2 Copying files to Nexus 5
 
