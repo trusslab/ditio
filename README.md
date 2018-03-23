@@ -1,14 +1,14 @@
 
-Saeed Mirzamohammadi, Justin A. Chen, Ardalan Amiri Sani, Sharad Mehrotra, Gene Tsudik, "Ditio: Trustworthy Auditing of Sensor Activities in Mobile & IoT Devices," in Proc. ACM Int. Conf. Embedded Networked Sensor Systems (SenSys) [PDF] (http://www.ics.uci.edu/~saeed/Mirzamohammadi_SenSys17.pdf).
+Saeed Mirzamohammadi, Justin A. Chen, Ardalan Amiri Sani, Sharad Mehrotra, Gene Tsudik, "Ditio: Trustworthy Auditing of Sensor Activities in Mobile & IoT Devices," in Proc. ACM Int. Conf. Embedded Networked Sensor Systems (SenSys) [PDF](http://www.ics.uci.edu/~saeed/Mirzamohammadi_SenSys17.pdf).
 
 
 # People
 
-* [Saeed Mirzamohammadi] (http://www.ics.uci.edu/~saeed)
+* [Saeed Mirzamohammadi](http://www.ics.uci.edu/~saeed)
 * Justin A. Chen
-* [Ardalan Amiri Sani] (http://www.ics.uci.edu/~ardalan)
-* [Sharad Mehrotra] (http://www.ics.uci.edu/~sharad)
-* [Gene Tsudik] (http://www.ics.uci.edu/~gts)
+* [Ardalan Amiri Sani](http://www.ics.uci.edu/~ardalan)
+* [Sharad Mehrotra](http://www.ics.uci.edu/~sharad)
+* [Gene Tsudik](http://www.ics.uci.edu/~gts)
 
 
 # 1. Ditio Components Overview
@@ -40,14 +40,14 @@ Change your current directory to the android system kernel directory and check o
 
 ```sh
 cd ~/android/system/kernel/lge/hammerhead
-git add remote ditio_origin https://github.com/saeedm92/Ditio_hammerhead_v1
+git add remote ditio_origin https://github.com/trusslab/Ditio_hammerhead_v1
 git checkout Ditio_hammerhead_v1
 ```sh
 
 ### 1.1.2 Copying files to Nexus 5
 
 ```sh
-$ git clone https://github.com/saeedm92/Ditio_LogRecorder.git
+$ git clone https://github.com/trusslab/Ditio_LogRecorder.git
 $ cd Ditio_LogRecorder
 $ source push_to_Nexus5.sh
 ```
@@ -101,7 +101,7 @@ This includes the frontend and the backend.
 Clone the source files with the command below:
 
 ```sh
-$ git clone https://github.com/saeedm92/Ditio_companion.git
+$ git clone https://github.com/trusslab/Ditio_companion.git
 ```
 
 ### 1.2.2 Generating Backend checks and Downloading the proof
@@ -109,7 +109,7 @@ $ git clone https://github.com/saeedm92/Ditio_companion.git
 Clone the Coq source files with the command below:
 
 ```sh
-$ git clone https://github.com/saeedm92/Ditio_companion_proof.git
+$ git clone https://github.com/trusslab/Ditio_companion_proof.git
 ```
 
 Follow the instructions on README file to build the Coq files and to generate the query checks for ARM.
