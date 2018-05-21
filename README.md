@@ -138,3 +138,6 @@ In this released source code, we open-sourced the kernel-only implemented of our
 * A companion tool for processing the log files generated the by the Log recorder module.
 * Proof of the correctness of the companion tool backend in Coq.
 
+# Acknowledgments
+
+The work was supported in part by NSF Award #1617513.
